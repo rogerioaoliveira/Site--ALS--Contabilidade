@@ -12,5 +12,8 @@ footer p{
     margin: 2em;
     padding: 5px 0px 2em 0px;   
     right: 10%;
-    color: #1e465f;
+    color: #272D2D;
+}
+footer a:hover{
+    font-size: medium;
 }
