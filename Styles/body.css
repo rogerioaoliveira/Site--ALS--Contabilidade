@@ -61,7 +61,7 @@ h2{
 }
 .galery img{
     width: 50vw;
-    height: 60vh;
+    height: auto;
 }
 
 
@@ -78,4 +78,14 @@ h2{
     95%{margin-left: -400%;}
     100%{margin-right: -500%;}
 }
-
+@media (max-width: 750px) {
+    .images{
+        border-radius: 0;
+    }
+}
+@media (max-width: 550px) {
+    .images{
+        height: 30vh;
+    }
+    
+}
