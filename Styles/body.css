@@ -4,22 +4,40 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    width: 90vw;
+    width: 97vw;
     height: auto;
     margin: auto;
+    background-image: url("/Images/cont6.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#banner img{    
-    width: 90vw;
+main{
+    width: 80vw;
+    margin: auto;
+}
+#banner h1{
+    color: #ffffff;
+    margin-top: 1em;
+    width: 25vw;
     height: auto;
     display: flex;
+    left: 0;
+    line-height: 2em;
+}
+.separator img{
+    display: flex;
+    width: 50vw;
+    height: 3px;
     margin: auto;
+    margin-top: 3em;
 }
 p{
-    color: #272D2D;
+    color: #ffffff;
     text-align: center;
 }
 h2{
-    color: #272D2D;
+    color: #FFFFFF;
     size: 48px;
     text-align: center;
     margin: 2em;
@@ -28,20 +46,6 @@ h2{
     display: flex;
     margin: auto;
     margin-bottom: 3em;
-}
-#socialMedia{
-    margin: auto;
-    text-align: center;
-}
-#socialMedia img{
-    width: 2em;
-    height: auto;
-    padding-right: 1em;
-    margin-top: 3em;
-}
-#socialMedia img:hover {
-    width: 2.5em;
-    height: auto;
 }
 .images{
     width: 50vw;
@@ -63,7 +67,55 @@ h2{
     width: 50vw;
     height: auto;
 }
-
+footer p{
+    display: block;
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    margin: 3em 10em 3em 0px;   
+    right: 0;
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+}
+footer a:hover{
+    font-size: medium;
+    color: #ffc400;
+}
+span#socialMedia{
+    display: grid;
+    position: fixed;
+    right: 1em;
+    top: 20vh;
+}
+span#socialMedia img{
+    margin-bottom: 3em;
+}
+span#socialMedia img:hover{
+    transition: 0.3s;
+    width: 3em;
+    height: auto;
+}
+a.start{    
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+    position: fixed;
+    cursor: pointer;
+    top: 90vh;
+    right: 1.5em;
+    border: none;
+    display: block;
+    white-space: nowrap;
+    font-size: small;
+    letter-spacing: 0;
+    transform: translate(0,-47px) rotate(-90deg);
+}
+a.start:hover{
+    font-size: medium;
+    color: #ffc400;
+}
 
 @keyframes anima {
     0%{margin-left: 0;}
@@ -78,14 +130,36 @@ h2{
     95%{margin-left: -400%;}
     100%{margin-right: -500%;}
 }
+
 @media (max-width: 750px) {
     .images{
         border-radius: 0;
     }
+    a.start{ 
+        display: none;
+    }
+    span#socialMedia{
+        display: grid;
+        position: fixed;
+        right: 1em;
+        top: 30vh;
+    }
 }
+
 @media (max-width: 550px) {
     .images{
         height: 30vh;
     }
-    
+    h1{
+        font-size: larger;
+    }
+    h2{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+    #email{
+        font-size: small;
+    }
 }
