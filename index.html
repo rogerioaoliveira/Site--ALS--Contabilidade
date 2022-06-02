@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/Styles/footer.css">
         <link rel="stylesheet" href="/Styles/navbar.css">
         <link rel="stylesheet" href="/Styles/body.css">
+        <link rel="stylesheet" href="/Styles/form.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
         </style> 
@@ -86,14 +87,27 @@
 
             <span class="separator"><img src="/Images/separedor.webp" alt="Separador de conteúdo para melhorar a estética da pagina" width="1200" height="auto"></span>
 
-            <section>
+            <section id="contacts">
                 <h2 id="contact">Contato</h2>
 
-                <article>
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Quem num gosta di mé, boa gentis num é.Sapien in monti palavris qui num significa nadis i pareci latim.</p>
+                <div id="form">
+                    <form action="https://formsubmit.co/recepcao.alscontabilidade@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="telefone" placeholder="Telefone com DDD" required>
+                        <textarea name="message" id="message" placeholder="Escreva aqui sua mensagem" required></textarea>
+                        <input type="hidden" name="_next" value="https://alscontabilidade.netlify.app/thanks.html">
+                        <button type="submit">Enviar</button>
+                    </form> 
+                </div>
 
-                    <a id="email" href="mailto:recepcao.alscontabilidade@gmail.com">recepcao.alscontabilidade@gmail.com</a>               
-                </article>
+                <div id="form2">
+                    <a id="mail" href="mailto:recepcao.alscontabilidade@gmail.com"><img src="/Images/email.webp" alt="Icone mostrando uma carta, simbolizando o e-mail"> recepcao.alscontabilidade@gmail.com</a>               
+                    
+                    <a id="cel" href="https://wa.me/5548984744030?text=Oi%2C+vi+seu+site+e+preciso+de+uma+consultoria%21" target="_blank"><img src="/Images/celular.webp" alt="Icone mostrando um celular, simbolizando o telefone"> (48) 9.8474-4030</a>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d904966.8534369445!2d-49.47965497805294!3d-27.62368751111077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527395239a50a3d%3A0x3547b6c400b37329!2sRegi%C3%A3o%20Metropolitana%20de%20Florian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1654203416087!5m2!1spt-BR!2sbr" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>                  
             </section>
 
             <span class="separator"><img src="/Images/separedor.webp" alt="Separador de conteúdo para melhorar a estética da pagina" width="1200" height="auto"></span>

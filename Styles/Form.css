@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#thanks h1{
+    color: #ffffff;
+    margin-top: 1em;
+    width: 25vw;
+    height: auto;
+    display: flex;
+    line-height: 1.7em;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+}
+#thanks h2{
+    color: #ffffff;
+    margin-top: 1em;
+    width: 25vw;
+    height: auto;
+    display: flex;
+    font-size: 1em;
+    margin: auto;
+    line-height: 3em;
+    justify-content: center;
+
+}
+#contacts div{
+    width: 50%;
+    display: inline-block;
+}
+#form{
+    line-height: 1em;
+}
+#form2{
+    float: left;
+}
+#form2 img{
+    width: 1.5em;
+    height: auto;
+    margin-right: 0.5em;
+}
+#mail img{
+    width: 2em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+#cel img{
+    width: 1.3em;
+    height: 2em;
+    margin-right: 1em;
+}
+#form2 a{
+    display: flex;
+    margin: auto;
+    margin-bottom: 3em;
+    align-items: center;
+}
+#form2 a:hover{
+    color: #ffc400;
+}
+#form input{ 
+    width: 80%;
+    height: 1em;
+    padding: 0.7em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    color: #252729;
+    border-radius: 0.25rem;
+    background-color: #ffffff1f;
+    color: #ffffff;
+}
+#form input:hover{ 
+    border: 3px solid #ffc400;
+    transition: 0.3s;
+}
+#form textarea{
+    border-radius: 0.25rem;
+    width: 83%;
+    height: 10em;
+    margin-bottom: 2em;
+    background-color: #ffffff1f;
+    color: #ffffff;
+}
+#form textarea:hover{
+    border: 3px solid #ffc400;
+    transition: 0.3s;
+}
+button{
+    border-radius: 0.25rem;
+    height: 3em;
+    width: 10em;
+    display: flex;
+    margin-left: 27%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+button:hover{
+    background-color: #ffc400;
+    color: #ffffff;
+    transition: 0.3s;
+    border: none;
+
+}
