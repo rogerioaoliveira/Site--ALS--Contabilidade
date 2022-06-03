@@ -61,7 +61,7 @@
     color: #ffc400;
 }
 #form input{ 
-    width: 80%;
+    width: 70%;
     height: 1em;
     padding: 0.7em;
     font-size: 0.8em;
@@ -70,6 +70,7 @@
     border-radius: 0.25rem;
     background-color: #ffffff1f;
     color: #ffffff;
+    margin-left: 5em;
 }
 #form input:hover{ 
     border: 3px solid #ffc400;
@@ -77,11 +78,12 @@
 }
 #form textarea{
     border-radius: 0.25rem;
-    width: 83%;
+    width: 73%;
     height: 10em;
     margin-bottom: 2em;
     background-color: #ffffff1f;
     color: #ffffff;
+    margin-left: 4em;
 }
 #form textarea:hover{
     border: 3px solid #ffc400;
@@ -92,7 +94,7 @@ button{
     height: 3em;
     width: 10em;
     display: flex;
-    margin-left: 27%;
+    margin-left: 12.5em;
     justify-content: center;
     align-items: center;
     font-size: 1em;

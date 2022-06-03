@@ -7,24 +7,53 @@ body{
     width: 97vw;
     height: auto;
     margin: auto;
-    background-image: url("/Images/cont6.webp");
+    background-image: url("/Images/fundo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+p{
+    margin-bottom: 1em;
 }
 main{
     width: 80vw;
     margin: auto;
 }
-#banner h1{
+#banner{
     color: #ffffff;
-    margin-top: 1em;
     width: 25vw;
-    height: auto;
+    margin-top: 1.5em;
+    margin-left: 5em;
+    height: 64vh;
     display: flex;
-    left: 0;
-    line-height: 2em;
+    align-items: center;
 }
+h1 {
+    line-height: 2em;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 32px;
+    
+
+}
+h1:after{
+   content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+    animation: cursor 0.8s infinite;
+}
+
+@keyframes cursor {
+    0% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+}
+
 .separator img{
     display: flex;
     width: 50vw;
@@ -35,6 +64,7 @@ main{
 p{
     color: #ffffff;
     text-align: center;
+    line-height: 2em;
 }
 h2{
     color: #FFFFFF;
@@ -115,6 +145,85 @@ a.start{
 a.start:hover{
     font-size: medium;
     color: #ffc400;
+}
+h3{
+    color: #ffffff;
+}
+div.services1{
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+}
+div.services2{
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+}
+div.services3{
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+}
+div.services4{
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+}
+#business{
+    float: left;
+}
+#business img{
+    margin-right: 2em;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+#businessP{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#payment{
+    float: right;
+}
+#payment img{
+    margin-left: 2em;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+#paymentP{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#accessory{
+    float: left;
+}
+#accessory img{
+    margin-right: 2em;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+#accessoryP{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#fiscal{
+    float: right;
+}
+#fiscal img{
+    margin-right: 2em;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+#fiscalP{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes anima {
