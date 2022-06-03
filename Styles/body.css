@@ -85,18 +85,6 @@ h2{
     margin-bottom: 3em;
     border-radius: 20px;
 }
-.images .galery{
-    width: 500%;
-    animation-name: anima;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    display: flex;
-    text-align: center;
-}
-.galery img{
-    width: 50vw;
-    height: auto;
-}
 footer p{
     display: block;
     font-size: small;
@@ -112,6 +100,9 @@ footer a{
 footer a:hover{
     font-size: medium;
     color: #ffc400;
+}
+span#socialMedia2{
+    display: none;
 }
 span#socialMedia{
     display: grid;
@@ -226,39 +217,45 @@ div.services4{
     justify-content: center;
 }
 
-@keyframes anima {
-    0%{margin-left: 0;}
-    5%{margin-left: 0;}
-    10%{margin-left: -100%;}
-    30%{margin-left: -100%;}
-    35%{margin-left: -200%;}
-    55%{margin-left: -200%;}
-    60%{margin-left: -300%;}
-    80%{margin-left: -300%;}
-    85%{margin-left: -400%;}
-    95%{margin-left: -400%;}
-    100%{margin-right: -500%;}
-}
-
 @media (max-width: 750px) {
-    .images{
-        border-radius: 0;
-    }
     a.start{ 
         display: none;
     }
     span#socialMedia{
-        display: grid;
-        position: fixed;
-        right: 1em;
-        top: 30vh;
+        display: none;
+    }
+    #banner{
+        width: 40vw;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 20px;
+    }
+    div.services1, div.services2, div.services3, div.services4{
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+    #business, #payment, #accessory, #fiscal{
+        float: none;
+    }
+    #business img, #payment img, #accessory img, #fiscal img{
+        margin: 0 0 0 0;
+        width: 40vw;
+    }
+    #businessP, #paymentP, #accessoryP, #fiscalP{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin: auto;
+        font-size: smaller;
+    }
+    .sepVert{
+        display: none;
     }
 }
 
 @media (max-width: 550px) {
-    .images{
-        height: 30vh;
-    }
     h1{
         font-size: larger;
     }
@@ -270,5 +267,12 @@ div.services4{
     }
     #email{
         font-size: small;
+    }
+    #banner{
+        width: 60vw;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 16px;
     }
 }

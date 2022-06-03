@@ -107,3 +107,68 @@ button:hover{
     border: none;
 
 }
+
+@media (max-width: 750px) {
+    #contacts div{
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #form input{ 
+        margin: 0 0 1em 0;
+        width: 50vw;
+    }
+    #form textarea{
+        margin: auto;
+        margin: 0 0 1em 0;
+        width: 53vw;
+    }
+    button{
+        margin: auto;
+        width: 5em;
+        height: 2em;
+        margin-bottom: 3em;
+    }
+    #form2{
+        float: none;
+    }
+    #form2 a{
+        font-size: small;
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 2em;
+        display: block;
+        
+    }
+    iframe{
+        width: 70vw;
+        height: auto;
+        margin: 0 0 2em 0;
+        display: inline;
+    }
+    span#socialMedia2{
+        display: grid;
+        text-align: center;
+    }
+    span#socialMedia2 img{
+        margin-bottom: 2em;
+    }
+    #thanks h1{
+        margin: 0 0 0 0;
+        width: 70vw;
+        height: auto;
+        font-size: medium;
+        animation: none;
+    }
+    footer p{
+        font-size: smaller;
+        margin: 3em 0 3em 0;
+    }
+}
+
+@media (max-width: 425px){
+    #form2 img{
+        display: none;
+    }
+}
